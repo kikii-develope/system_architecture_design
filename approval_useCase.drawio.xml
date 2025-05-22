@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="fb57c5ac-467b-47d4-849c-8e6b75440e38">
+    <mxGraphModel dx="876" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="기안자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="100" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="결재자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="300" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="부서" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="500" width="40" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="기안서 작성" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="첨부파일 업로드" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="450" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="결재선 지정" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="기안서 제출" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="200" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="문서 조회" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="기안 취소" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="기안서 수정" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="반려 문서 재기안" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="510" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="결재 승인" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="250" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="결재 반려" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="250" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="사유 입력" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="510" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="결재 프리셋 자동 지정" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="250" y="512.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="endArrow=none;" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="endArrow=none;" parent="1" source="2" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="endArrow=none;" parent="1" source="2" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=none;" parent="1" source="2" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="" style="endArrow=none;" parent="1" source="2" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="endArrow=none;" parent="1" source="2" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="" style="endArrow=none;" parent="1" source="3" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="endArrow=none;" parent="1" source="3" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="endArrow=none;" parent="1" source="3" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=none;" parent="1" source="4" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="533" />
+              <mxPoint x="200" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="추가 자료 업로드" style="dashed=1;endArrow=open;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry x="-0.0027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="자동 or. 수동 선택" style="dashed=1;endArrow=open;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry x="0.0866" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="반려 사유 입력" style="dashed=1;endArrow=open;" parent="1" source="14" target="15" edge="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="반려된 문서 재수정" style="dashed=1;endArrow=open;" parent="1" source="12" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-30" value="알림 (진행 X)" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.163;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="12" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-34" value="양식 선택" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-35" value="" style="dashed=1;endArrow=open;entryX=0.219;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="L-RBhc3d6A9l8vLYng1b-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="60" as="sourcePoint" />
+            <mxPoint x="400" y="84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-36" value="결재양식 관리" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="250" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-38" value="결재양식 편집&lt;br&gt;(생성/수정/삭제)" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-41" value="" style="dashed=1;endArrow=open;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L-RBhc3d6A9l8vLYng1b-36" target="L-RBhc3d6A9l8vLYng1b-38" edge="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="410" y="581" as="sourcePoint" />
+            <mxPoint x="510" y="589" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-RBhc3d6A9l8vLYng1b-37" value="" style="endArrow=none;" parent="1" source="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="584" as="sourcePoint" />
+            <mxPoint x="250" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
