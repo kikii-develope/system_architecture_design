@@ -59,7 +59,7 @@
         <mxCell id="S9YEt4T9Fx8UtY1OD3hM-25" value="approver_id (bigint)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="S9YEt4T9Fx8UtY1OD3hM-22" vertex="1">
           <mxGeometry y="80" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="S9YEt4T9Fx8UtY1OD3hM-26" value="approval_order (int) // 결재 순서" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="S9YEt4T9Fx8UtY1OD3hM-22" vertex="1">
+        <mxCell id="S9YEt4T9Fx8UtY1OD3hM-26" value="approval_order (int) // 결재 순서 , 합의자 0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="S9YEt4T9Fx8UtY1OD3hM-22" vertex="1">
           <mxGeometry y="102" width="240" height="22" as="geometry" />
         </mxCell>
         <mxCell id="S9YEt4T9Fx8UtY1OD3hM-27" value="status (varchar) // 결재, 합의, 참조" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="S9YEt4T9Fx8UtY1OD3hM-22" vertex="1">
