@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.8">
   <diagram name="Page-1" id="fb57c5ac-467b-47d4-849c-8e6b75440e38">
-    <mxGraphModel dx="1478" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="529" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
             <mxPoint x="1061" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W6kNxxTKL_5CRy6RoV5h-84" value="합의 의견 작성" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="W6kNxxTKL_5CRy6RoV5h-84" value="합의" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1071" y="635" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W6kNxxTKL_5CRy6RoV5h-85" value="" style="endArrow=none;entryX=-0.001;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W6kNxxTKL_5CRy6RoV5h-77" target="W6kNxxTKL_5CRy6RoV5h-84" edge="1">
@@ -183,6 +183,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="891" y="595" as="sourcePoint" />
             <mxPoint x="1081" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t97kMrzCYsHBeXxV6IhM-30" value="" style="endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W6kNxxTKL_5CRy6RoV5h-77" target="W6kNxxTKL_5CRy6RoV5h-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="891" y="597" as="sourcePoint" />
+            <mxPoint x="1081" y="659" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
