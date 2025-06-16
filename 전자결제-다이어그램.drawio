@@ -2498,7 +2498,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oBDqExplP0r5lr0qA2OO" name="Code">
-    <mxGraphModel dx="2852" dy="1580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4073,29 +4073,35 @@
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-7" value="comment (text) default NULL // 결재 의견" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="124" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-8" value="approval_role (varchar) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-8" value="department_id (varchar)    // 부서 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="146" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-9" value="approved_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+        <mxCell id="nhj7ZyX8HyQVtXXbjdOy-1" value="position_id (varchar)        // 직책 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="168" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-4" value="approver_id (bigint)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+        <mxCell id="nhj7ZyX8HyQVtXXbjdOy-2" value="approval_role (varchar) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="190" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-10" value="created_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-9" value="approved_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="212" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-11" value="updated_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-4" value="approver_id (bigint)            // 결재자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
           <mxGeometry y="234" width="240" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-10" value="created_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+          <mxGeometry y="256" width="240" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-11" value="updated_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
+          <mxGeometry y="278" width="240" height="22" as="geometry" />
+        </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-12" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
-          <mxGeometry y="256" width="240" height="50" as="geometry" />
+          <mxGeometry y="300" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-13" value="결재선 테이블&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-1">
-          <mxGeometry y="306" width="240" height="40" as="geometry" />
+          <mxGeometry y="350" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-14" value="template_step" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1701" y="751" width="350" height="296" as="geometry">
+          <mxGeometry x="1701" y="751" width="350" height="320" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -4105,26 +4111,32 @@
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-16" value="template_id (bigint)     // 양식 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
           <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-17" value="user_id (bigint)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
+        <mxCell id="nhj7ZyX8HyQVtXXbjdOy-3" value="department_id (varchar)         // 부서 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
           <mxGeometry y="78" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-18" value="approval_role (varchar)    // 결재자, 합의자, 참조자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="104" width="350" height="22" as="geometry" />
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-17" value="position_id    (varchar)            //직책 ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="03oDrr_Q5Hh7FUhjMnDz-18" value="is_final_approval (tinyint)     // 전결 여부" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
+          <mxGeometry y="130" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hmVw3gruM78sTSkILPgZ-1" value="approval_role (varchar)    // 결재자, 합의자, 참조자" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
+          <mxGeometry y="152" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="cXSc8mLzmdso6ItwdayY-18" value="step (int)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="126" width="350" height="22" as="geometry" />
+          <mxGeometry y="174" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-19" value="created_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="148" width="350" height="22" as="geometry" />
+          <mxGeometry y="196" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-20" value="updated_at (datetime)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="170" width="350" height="22" as="geometry" />
+          <mxGeometry y="218" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-21" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="192" width="350" height="50" as="geometry" />
+          <mxGeometry y="240" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-22" value="결재 양식별 결재선 테이블" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="03oDrr_Q5Hh7FUhjMnDz-14">
-          <mxGeometry y="242" width="350" height="30" as="geometry" />
+          <mxGeometry y="290" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="03oDrr_Q5Hh7FUhjMnDz-23" value="document" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1229" y="2329" width="400" height="392" as="geometry">
