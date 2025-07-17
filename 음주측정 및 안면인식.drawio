@@ -1,0 +1,232 @@
+<mxfile host="65bd71144e">
+    <diagram id="dnFg-IwI_hOvyIyN98id" name="Structure">
+        <mxGraphModel dx="1758" dy="1337" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="1252" width="572" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="167" y="193" width="583" height="97" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-71" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Data&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="-0.0585" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="PC or Board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="스마트 운수 솔루션 Web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="608" y="210" width="129" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;음주 측정 및 안면인식 결과&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="-0.0161" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="858" y="344"/>
+                            <mxPoint x="672" y="344"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;음주 측정 및 안면인식 결과&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.006" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="798" y="210" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1154" y="210" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" source="17" target="19" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;음주 측정 및 안면인식 결과&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                    <mxGeometry x="0.0494" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;PC or Board&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="616" y="717" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1139" y="747"/>
+                            <mxPoint x="1139" y="834"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="948" y="717" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="19" target="26" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1133.9999999999998" y="747" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;스마트 운수 솔루션 Web&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1198" y="717" width="133" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1198" y="804" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="학습 데이터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="798" y="63" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="학습 데이터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="615" y="611" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-58" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="ldMa8FhGpG3M-blKnVUu-56" target="ldMa8FhGpG3M-blKnVUu-57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-60" value="사용자 정보" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ldMa8FhGpG3M-blKnVUu-58">
+                    <mxGeometry x="-0.0404" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-56" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;스마트 운수 솔루션 Web&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="192" y="717" width="133" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-59" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="ldMa8FhGpG3M-blKnVUu-57" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-57" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="717" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-67" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ldMa8FhGpG3M-blKnVUu-66" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-68" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;사용자 정보&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ldMa8FhGpG3M-blKnVUu-67">
+                    <mxGeometry x="-0.0714" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-66" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;스마트 운수 솔루션 Web&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="192" y="210" width="133" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-72" value="&amp;nbsp; 특징 : 서버에서 주요 알고리즘을 처리한다&lt;div&gt;&amp;nbsp; 단점&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 자체 개발 난이도 증가&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="198.5" y="383" width="237.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldMa8FhGpG3M-blKnVUu-73" value="&amp;nbsp; 특징 : 보드에서 주요 알고리즘을 처리한다&lt;div&gt;&amp;nbsp; 단점&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 외주 개발 비용 증가 예상&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 보드 유지 보수 관리 필요&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 자재 수급 관리 필요&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 데모 보드가 완성될 때까지 기다려야 함&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="192" y="860" width="237.5" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-44" value="" style="edgeStyle=none;html=1;" edge="1" source="2yZTqxfSMQiWZY9_T31a-46" target="2yZTqxfSMQiWZY9_T31a-48" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-45" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Data&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yZTqxfSMQiWZY9_T31a-44">
+                    <mxGeometry x="-0.0585" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-46" value="Android Tablet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="429.5" y="1272" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-47" value="" style="edgeStyle=none;html=1;" edge="1" source="2yZTqxfSMQiWZY9_T31a-48" target="2yZTqxfSMQiWZY9_T31a-53" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-48" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;스마트 운수 솔루션 App&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="614.5" y="1272" width="129" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-49" value="" style="edgeStyle=none;html=1;" edge="1" source="2yZTqxfSMQiWZY9_T31a-53" target="2yZTqxfSMQiWZY9_T31a-54" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-50" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;음주 측정 및 안면인식 결과&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yZTqxfSMQiWZY9_T31a-49">
+                    <mxGeometry x="-0.0161" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-51" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="2yZTqxfSMQiWZY9_T31a-53" target="2yZTqxfSMQiWZY9_T31a-48" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="864.5" y="1406"/>
+                            <mxPoint x="678.5" y="1406"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-52" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;음주 측정 및 안면인식 결과&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yZTqxfSMQiWZY9_T31a-51">
+                    <mxGeometry x="-0.006" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-53" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="804.5" y="1272" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-54" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160.5" y="1272" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-55" value="" style="edgeStyle=none;html=1;" edge="1" source="2yZTqxfSMQiWZY9_T31a-56" target="2yZTqxfSMQiWZY9_T31a-53" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-56" value="학습 데이터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="804.5" y="1125" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-57" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="2yZTqxfSMQiWZY9_T31a-59" target="2yZTqxfSMQiWZY9_T31a-46" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-58" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;사용자 정보&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yZTqxfSMQiWZY9_T31a-57">
+                    <mxGeometry x="-0.0714" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-59" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;스마트 운수 솔루션 App&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="198.5" y="1272" width="133" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yZTqxfSMQiWZY9_T31a-60" value="&amp;nbsp; 특징 : 서버에서 주요 알고리즘을 처리한다&lt;div&gt;&amp;nbsp; 단점&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 자체 개발 난이도 증가&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;: 안드로이드 네이티브 기능의 한계 존재 가능성&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1445" width="266" height="82" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="3Y-7d6ajyFUIfxmR2m8e" name="work flow">
+        <mxGraphModel dx="781" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="WzlhGDnBuog5J-X9LjEf-1" target="WzlhGDnBuog5J-X9LjEf-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-1" value="스마트 운수 솔루션&lt;div&gt;출근하기 클릭&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="216" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="WzlhGDnBuog5J-X9LjEf-2" target="WzlhGDnBuog5J-X9LjEf-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-2" value="안면인식" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="392" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="WzlhGDnBuog5J-X9LjEf-4" target="WzlhGDnBuog5J-X9LjEf-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-4" value="음주측정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="571" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzlhGDnBuog5J-X9LjEf-6" value="결과" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="739" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
