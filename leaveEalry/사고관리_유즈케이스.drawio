@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.9">
+  <diagram name="페이지-1" id="RwPGuKCCtPlLq2A5x1nv">
+    <mxGraphModel dx="1499" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bEbvpU-wlbyCxERsacxX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-4" target="bEbvpU-wlbyCxERsacxX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-4" target="bEbvpU-wlbyCxERsacxX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-4" target="bEbvpU-wlbyCxERsacxX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-4" value="관리자&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-5" target="bEbvpU-wlbyCxERsacxX-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="325" />
+              <mxPoint x="140" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-5" target="bEbvpU-wlbyCxERsacxX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-5" target="bEbvpU-wlbyCxERsacxX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-5" value="교통안전부" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-6" target="bEbvpU-wlbyCxERsacxX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-6" value="승무원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-13" value="&lt;br&gt;사고 입력" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-18" value="&lt;br&gt;사고 내역 수정" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-20" value="교통안전부 작성하기 전&lt;br/&gt;&lt;br&gt;write_status = MANAGER_WRITTEN" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-21" target="bEbvpU-wlbyCxERsacxX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-21" value="&lt;br&gt;사고 건수에 대한 정보 입력" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-24" target="bEbvpU-wlbyCxERsacxX-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-24" value="&lt;br&gt;대인 건에 대한 정보 입력" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-25" target="bEbvpU-wlbyCxERsacxX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-25" value="&lt;br&gt;대물건에 대한 정보 입력" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-26" target="bEbvpU-wlbyCxERsacxX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-26" value="&lt;br&gt;대인 건 추가 종결" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="526" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-27" target="bEbvpU-wlbyCxERsacxX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-27" value="&lt;br&gt;대물 건 추가 종결" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="527" y="370" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-32" value="추가 종결금 + 대인/대물건수에 대한 총 지급액" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-35" value="서버 :&amp;nbsp;&lt;br&gt;해당하는 사고 건에 대한&lt;br&gt;총 지급 액 수정" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="707" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-38" value="&lt;br&gt;&lt;br&gt;사고 건에 대한 조회 기능" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="485" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-43" value="&lt;br&gt;사고 건에 대한 종결" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="359" y="210" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-47" target="bEbvpU-wlbyCxERsacxX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-47" value="&lt;br&gt;대인 건에 대한 종결" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="359" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEbvpU-wlbyCxERsacxX-49" target="bEbvpU-wlbyCxERsacxX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEbvpU-wlbyCxERsacxX-49" value="&lt;br&gt;대물 건에 대한 종결" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="359" y="370" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
