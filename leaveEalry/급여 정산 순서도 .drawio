@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="페이지-1" id="yPV3pPV7M_LI8YmmPbR8">
+    <mxGraphModel dx="1665" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-9" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_JjEqB62eJ0I7S_BYETj-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="직종/부서/직급에&amp;nbsp;&lt;br&gt;대한 급여 정산 시작" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-14" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_JjEqB62eJ0I7S_BYETj-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="paymentItem을 통해서&amp;nbsp;&lt;br&gt;해당 직군에 대한 paymentRule 조회&lt;br&gt;&lt;br&gt;계산순서로 정렬" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-11" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_JjEqB62eJ0I7S_BYETj-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-8" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="해당하는 udp에서&amp;nbsp;&lt;br&gt;user list 조회" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-12" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_JjEqB62eJ0I7S_BYETj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-10" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="해당 직군에 대한&amp;nbsp;&lt;br&gt;paymentItem 조회" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-16" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_JjEqB62eJ0I7S_BYETj-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-13" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="userList 돌면서&lt;div&gt;paymentScope 및&amp;nbsp;&lt;br&gt;paymentRule 적용&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-18" edge="1" parent="1" source="_JjEqB62eJ0I7S_BYETj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_JjEqB62eJ0I7S_BYETj-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-15" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="user별 급여 계산" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-17" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="급여 합계&amp;nbsp;&lt;br&gt;user_payment_item_detail에 입력" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="300" width="50" x="470" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_JjEqB62eJ0I7S_BYETj-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFF3F9;align=left;verticalAlign=middle;rounded=0;shadow=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. paymentRule에 관련된 user paymentScope조회&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2. map으로 &amp;lt;paymentRule, paymentScope&amp;gt;만들기&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;3. for문 돌면서 paymentRule에 대한 scope없으면 rule값 있으면&amp;nbsp; scope 값&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;4. paymentRule의 caculation_type이 rate, experssion이면 calculationContext와 calculationEngine으로 계산&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="250" x="520" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
